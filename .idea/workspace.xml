@@ -11,20 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="193">
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercises/FunctionsExercise.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="339">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
         <option value="$PROJECT_DIR$/src/playground/ScalaPlayground.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/ValueVariableTypes.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala" />
-        <option value="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" />
         <option value="$PROJECT_DIR$/src/exercises/FunctionsExercise.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" />
       </list>
     </option>
   </component>
@@ -93,7 +93,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548418467024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548418612691" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -265,17 +265,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
+    <entry file="file://$PROJECT_DIR$/src/exercises/FunctionsExercise.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="339">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/FunctionsExercise.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="193">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="43" />
         </state>
       </provider>
     </entry>

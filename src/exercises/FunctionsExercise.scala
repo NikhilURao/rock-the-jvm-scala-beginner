@@ -1,9 +1,9 @@
 package exercises
 
-import lectures.part1basics.Functions.aGreetingFunction
-//1.Greeting Function
+
 object FunctionsExercise extends App {
 
+  //1.Greeting Function
   def aGreetingFunction(Name: String, Age: Int): Unit = {
     println(s"Hi, My name is $Name and my age is $Age")
 
