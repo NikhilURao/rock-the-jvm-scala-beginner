@@ -1,5 +1,7 @@
 package exercises
 
+import scala.annotation.tailrec
+
 
 object FunctionsExercise extends App {
 

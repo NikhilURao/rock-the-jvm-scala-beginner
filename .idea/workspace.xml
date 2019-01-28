@@ -11,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
@@ -20,11 +20,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercises/FunctionsExercise.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="40" column="1" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="43" />
+            <state relative-caret-position="205">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -49,8 +58,9 @@
         <option value="$PROJECT_DIR$/src/playground/ScalaPlayground.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/ValueVariableTypes.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Expressions.scala" />
-        <option value="$PROJECT_DIR$/src/exercises/FunctionsExercise.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" />
+        <option value="$PROJECT_DIR$/src/exercises/FunctionsExercise.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part1basics/Recursions.scala" />
       </list>
     </option>
   </component>
@@ -93,7 +103,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548418612691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548678014669" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -110,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionsExercise">
+  <component name="RunManager" selected="Application.Recursions">
     <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
       <module name="rock-the-jvm-scala-beginner" />
@@ -150,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaPlayground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.ScalaPlayground" />
+    <configuration name="Recursions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Recursions" />
       <module name="rock-the-jvm-scala-beginner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.*" />
+          <option name="PATTERN" value="lectures.part1basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursions" />
         <item itemvalue="Application.FunctionsExercise" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Expressions" />
         <item itemvalue="Application.ValueVariableTypes" />
-        <item itemvalue="Application.ScalaPlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -265,17 +275,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/FunctionsExercise.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="44" column="43" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/FunctionsExercise.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
