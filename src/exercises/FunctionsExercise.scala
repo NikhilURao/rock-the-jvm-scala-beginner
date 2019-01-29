@@ -29,7 +29,7 @@ object FunctionsExercise extends App {
     else aFibonacciFunction(n-1) + aFibonacciFunction(n-2)
   }
 println(aFibonacciFunction(n=8))
-
+//fib series : 1,1,2,3,5,8,13,21,..........
 
   //4.Test if a number is a prime
 

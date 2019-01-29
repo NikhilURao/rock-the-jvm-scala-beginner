@@ -20,11 +20,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="34" lean-forward="true" selection-start-line="33" selection-end-line="70" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercises/RecursionsExercise.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -32,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercises/FunctionsExercise.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="188">
+              <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -61,6 +70,7 @@
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Functions.scala" />
         <option value="$PROJECT_DIR$/src/exercises/FunctionsExercise.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Recursions.scala" />
+        <option value="$PROJECT_DIR$/src/exercises/RecursionsExercise.scala" />
       </list>
     </option>
   </component>
@@ -94,6 +104,12 @@
               <item name="rock-the-jvm-scala-beginner" type="b2602c69:ProjectViewProjectNode" />
               <item name="rock-the-jvm-scala-beginner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rock-the-jvm-scala-beginner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rock-the-jvm-scala-beginner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="part1basics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -103,7 +119,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548678014669" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548767377670" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -120,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Recursions">
+  <component name="RunManager" selected="Application.RecursionsExercise">
     <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
       <module name="rock-the-jvm-scala-beginner" />
@@ -173,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueVariableTypes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.ValueVariableTypes" />
+    <configuration name="RecursionsExercise" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.RecursionsExercise" />
       <module name="rock-the-jvm-scala-beginner" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionsExercise" />
         <item itemvalue="Application.Recursions" />
         <item itemvalue="Application.FunctionsExercise" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Expressions" />
-        <item itemvalue="Application.ValueVariableTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -284,15 +300,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/FunctionsExercise.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="188">
+          <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/Recursions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="34" lean-forward="true" selection-start-line="33" selection-end-line="70" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/RecursionsExercise.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
