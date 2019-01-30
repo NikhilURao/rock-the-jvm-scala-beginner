@@ -29,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercises/RecursionsExercise.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/CBNvsCBV.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -71,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/exercises/FunctionsExercise.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1basics/Recursions.scala" />
         <option value="$PROJECT_DIR$/src/exercises/RecursionsExercise.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part1basics/CBNvsCBV.scala" />
       </list>
     </option>
   </component>
@@ -104,12 +114,6 @@
               <item name="rock-the-jvm-scala-beginner" type="b2602c69:ProjectViewProjectNode" />
               <item name="rock-the-jvm-scala-beginner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rock-the-jvm-scala-beginner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rock-the-jvm-scala-beginner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="part1basics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -119,7 +123,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548767377670" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548833014982" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -136,9 +140,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RecursionsExercise">
-    <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Expressions" />
+  <component name="RunManager" selected="Application.CBNvsCBV">
+    <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CBNvsCBV" />
       <module name="rock-the-jvm-scala-beginner" />
       <extension name="coverage">
         <pattern>
@@ -204,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CBNvsCBV" />
         <item itemvalue="Application.RecursionsExercise" />
         <item itemvalue="Application.Recursions" />
         <item itemvalue="Application.FunctionsExercise" />
         <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Expressions" />
       </list>
     </recent_temporary>
   </component>
@@ -314,8 +318,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/RecursionsExercise.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="136">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1basics/CBNvsCBV.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
