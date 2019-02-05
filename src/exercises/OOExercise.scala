@@ -19,8 +19,6 @@ Novel : Name, year of release, author name
 -method that receives the current count
 -method to increment/decrement the count by 1=> new Counter
 -overload inc/dec to receive an amount to increase and decrease the count => new Counter
-
-
 */
 
 object OOExercise extends App {
@@ -32,16 +30,13 @@ object OOExercise extends App {
   println(novel.IsWrittenBy(author))
   println(novel.copy(1972))
   println(novel.yor)
-/*val count = new Counter(3)
-  count.IncDec()
-  count.IncDec(2)
-*/
-
-  val count1 = new Counter1(2)
-  count1.inc.print()
 
 
-
+  val count= new Counter(2)
+  count.inc.print
+  count.inc(3).print
+  count.dec.print
+  count.dec(2).print
 }
 
 class Writer (firstname : String , lastname : String , val yob : Int) {
@@ -58,7 +53,7 @@ def AuthorAge() : Int = yor - author.yob
 def IsWrittenBy(author :Writer) = author == this.author
 def copy (newyear : Int): Novel = new Novel(name,newyear,author)
 }
-
+/*
 class Counter(num :Int) {
 
   def IncDec() : Unit = {
@@ -71,27 +66,28 @@ def IncDec (n : Int) ={
 //val Decbyn = num - n*1
 println(num + n*1, num - n*1)}
 }
-
-class Counter1(val num :Int) {
+*/
+class Counter(val num :Int) {
 
   def inc = {
-    println(s"Incrementing number $num by one")
+    println("Incrementing")
     new Counter(num +1)
   }
 
   def dec = {
-    println(s"Decrementing number $num by one")
+    println(s"Decrementing")
     new Counter(num -1)
   }
 
-  def inc(n: Int) ={
-    println(s"Incrementing the number $num by $n")
-    new Counter(num + n)
+  def inc(n: Int): Counter ={
+    if (n<=0) this
+    else inc.inc(n-1)
   }
 
-  def dec(n : Int) = {
-    println(s"Decrementing the number $num by $n")
-    new Counter(num -n)
+  def dec(n : Int) : Counter= {
+    if (n<=0) this
+    else dec.dec(n-1)
+
   }
   def print = println(num)
 }
