@@ -43,7 +43,7 @@ def aGreetingFunction(Name: String, Age: Int): Unit = {
   //2.Factorial Function
 
   def aFactorialFunction(num: Int): Int = {
-    if (num <=0) 1
+    if (num <=1) 1
     else num * aFactorialFunction(num - 1)
   }
   println(aFactorialFunction(0))

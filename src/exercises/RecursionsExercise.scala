@@ -27,7 +27,7 @@ object RecursionsExercise extends App {
     IsPrimehelper(n/2,true)
 
   }
-  //3. Fibonacci Series
+  //3. Tail rec Fibonacci Series
 
   def FibonacciTailRec(num : Int) : Int =
   {
@@ -42,5 +42,12 @@ object RecursionsExercise extends App {
   }
   println(FibonacciTailRec(3))
 
+  //4.Tail rec Factorial Function
+  @tailrec
+  def TailRecFactorial(n : Int, acc :Int) : Int = {
 
+    if (n<=1) 1
+    else TailRecFactorial(n-1,n*acc)
+  }
+println(TailRecFactorial(10,1))
 }
